@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projekatv2.AdminUserMenuController">
+   <children>
+      <ListView fx:id="list_volonteers" layoutX="100.0" layoutY="59.0" prefHeight="200.0" prefWidth="422.0" />
+      <Button fx:id="button_assign" layoutX="149.0" layoutY="276.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="123.0" text="Rasporedi volontera" />
+      <Button fx:id="button_volonteerDetails" layoutX="345.0" layoutY="277.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" text="Detalji" />
+      <Button fx:id="button_back" layoutX="250.0" layoutY="338.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" text="Nazad" />
+   </children>
+</AnchorPane>

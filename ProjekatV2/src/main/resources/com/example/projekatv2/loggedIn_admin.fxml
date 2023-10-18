@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projekatv2.LoggedInAdminController">
+   <children>
+      <Label fx:id="label1" layoutX="36.0" layoutY="42.0" text="WELCOME">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_logout" layoutX="273.0" layoutY="290.0" mnemonicParsing="false" text="Logout" />
+      <Label layoutX="55.0" layoutY="123.0" text="IZABERI OPCIJU :" />
+      <Button fx:id="button_camps" layoutX="136.0" layoutY="150.0" mnemonicParsing="false" text="Rad sa kampovima" />
+      <Button fx:id="button_volonteers" layoutX="135.0" layoutY="200.0" mnemonicParsing="false" text="Rad sa volonterima" />
+   </children>
+</AnchorPane>

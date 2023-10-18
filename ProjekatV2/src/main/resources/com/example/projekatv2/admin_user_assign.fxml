@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projekatv2.AdminUserAssignController">
+   <children>
+      <Label layoutX="152.0" layoutY="104.0" text="Rasporedi u kamp" />
+      <Label layoutX="192.0" layoutY="134.0" text="Od" />
+      <Label layoutX="192.0" layoutY="164.0" text="Do" />
+      <ChoiceBox fx:id="cb_campAssign" layoutX="257.0" layoutY="100.0" prefHeight="25.0" prefWidth="155.0" />
+      <DatePicker fx:id="dp_from" layoutX="257.0" layoutY="130.0" prefHeight="25.0" prefWidth="155.0" />
+      <DatePicker fx:id="dp_to" layoutX="257.0" layoutY="160.0" prefHeight="25.0" prefWidth="155.0" />
+      <Button fx:id="button_update" layoutX="350.0" layoutY="251.0" mnemonicParsing="false" text="Azuriraj" />
+      <Button fx:id="button_back" layoutX="200.0" layoutY="251.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="Nazad" />
+   </children>
+</AnchorPane>

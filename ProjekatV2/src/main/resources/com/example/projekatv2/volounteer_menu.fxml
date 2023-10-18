@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projekatv2.VolounteerMenuController">
+   <children>
+      <Label layoutX="91.0" layoutY="79.0" text="Dobrodosli, zaduzeni ste za kamp " />
+      <Label fx:id="label_volounteer" layoutX="278.0" layoutY="79.0" text="Label" />
+      <Button fx:id="button_addInCamp" layoutX="91.0" layoutY="150.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" text="Dodaj osobe u kamp" />
+      <Label layoutX="91.0" layoutY="121.0" text="Izaberite opciju:" />
+      <Button fx:id="button_pregledaj" layoutX="91.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" text="Pregledaj korisnike kampa" />
+      <Button fx:id="button_back" layoutX="266.0" layoutY="328.0" mnemonicParsing="false" text="Logout" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projekatv2.AdminCampDetailsControles">
+   <children>
+      <TableView fx:id="table_CampDetails" layoutX="104.0" layoutY="85.0" prefHeight="230.0" prefWidth="429.0">
+        <columns>
+          <TableColumn prefWidth="90.0" text="Naziv kampa" />
+          <TableColumn prefWidth="91.0" text="Grad" />
+            <TableColumn prefWidth="82.0" text="Ime admina" />
+            <TableColumn prefWidth="82.0" text="STATUS" />
+            <TableColumn prefWidth="83.0" text="Broj korisnika" />
+        </columns>
+      </TableView>
+      <Button fx:id="button_back" layoutX="160.0" layoutY="341.0" mnemonicParsing="false" text="Nazad" />
+      <Button fx:id="button_userDetails" layoutX="271.0" layoutY="341.0" mnemonicParsing="false" text="Prikazi detalje o korisnicima kampa" />
+   </children>
+</AnchorPane>

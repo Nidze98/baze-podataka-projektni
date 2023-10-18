@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projekatv2.AdminCampUpdateCampController">
+   <children>
+      <TextField fx:id="tf_UcampName" layoutX="255.0" layoutY="103.0" />
+      <Label layoutX="180.0" layoutY="107.0" text="Naziv kampa" />
+      <Label layoutX="196.0" layoutY="142.0" text="Mjesto" />
+      <Label layoutX="198.0" layoutY="179.0" text="Status" />
+      <ChoiceBox fx:id="cb_UcampPlace" layoutX="255.0" layoutY="138.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="cb_UcampStatus" layoutX="255.0" layoutY="175.0" prefWidth="150.0" />
+      <Button fx:id="button_Uback" layoutX="205.0" layoutY="315.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="Nazad" />
+      <Button fx:id="button_UupdateCamp" layoutX="348.0" layoutY="315.0" mnemonicParsing="false" text="Azuriraj" />
+   </children>
+</AnchorPane>
