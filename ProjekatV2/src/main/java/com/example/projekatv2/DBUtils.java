@@ -19,8 +19,8 @@ import java.util.List;
 public class DBUtils {
     private static final String CONNECTION_STRING = "jdbc:mysql://localhost:3306/mydb";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "suineg98+";
-  //  "jdbc:mysql://localhost:3306/mydb", "root", "suineg98+"
+    private static final String PASSWORD = "";
+  //  "jdbc:mysql://localhost:3306/mydb", "root", ""
     public static String user = null;
 
     public static void changeScene(ActionEvent event, String fxmlFile, String title, String username) {
